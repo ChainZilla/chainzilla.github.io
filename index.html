@@ -2,9 +2,55 @@
 <html>
     <head>
         <title>ChainZilla</title>
-        <meta http-equiv="refresh" content="0;URL='https://chainzilla.io'">
+        <style>
+            html, body {
+                height: 100%;
+            }
+
+            body {
+                margin: 0;
+                background-color: #373D42;
+            }
+            
+            #content {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height:100vh;
+            }
+
+            #mainlink {
+                display:block;
+                width:100%;
+                margin: 0 0 20px 0;
+            }
+
+            #mainlink img {
+                max-width:100%;
+                max-height:100%;
+            }
+
+            #links {
+                display:block;
+                list-style-type:none;
+                margin:0;
+                padding:0;
+            }
+
+            #links li {
+                display: inline-block;
+            }
+        </style>
     </head>
     <body>
-        <a href="https://chainzilla.io">Chainzilla.io</a>
+        <div id="content">
+            <div id="inner">
+                <a href="https://chainzilla.io" id="mainlink"><img src="./images/chainzilla.png"></a>
+
+                <ul id="links">
+                    <li><a href="./paperwallet">Komodo Paper Wallet</a></li>
+                </ul>
+            </div>
+        </div>
     </body>
 </html>

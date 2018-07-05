@@ -1,0 +1,3 @@
+[submodule "paperwallet"]
+	path = paperwallet
+	url = https://github.com/ChainZilla/KomodoPaperWalletGenerator.git
